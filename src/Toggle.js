@@ -5,7 +5,10 @@ export const Toggle = () => {
   const [isToggled, setToggle] = useState(false);
   const fade = useSpring({
     // ternary operator sets the opacity in one line
-    opacity: isToggled ? 1 : 0
+    // opacity: isToggled ? 1 : 0,
+    color: isToggled ? 'tomato' : 'green',
+    // fontSize: isToggled ? '2rem' : '5em',
+    transform: isToggled ? 'translate3d(0,0,0)' : 'translate3d(0,-50px,0)'
   });
 
   return (
