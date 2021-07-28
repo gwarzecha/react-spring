@@ -6,6 +6,7 @@ import "./App.css";
 
 
 const App = () => {
+  // page fade
   const fade = useSpring({
     from: {
       opacity: 0,
