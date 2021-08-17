@@ -4,6 +4,7 @@ import { Nav } from "./Nav";
 import ModalWrapper from './Modal';
 import { Checkout } from "./Checkout";
 import { Accordion } from "./Accordion";
+import Waypoints from "./Waypoints";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -35,6 +36,7 @@ const App = () => {
         <Checkout isOpen={isNavOpen} />
         <ModalWrapper />
         <Accordion />
+        <Waypoints />
       </main>
     </animated.div>
   );
